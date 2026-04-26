@@ -1,0 +1,11 @@
+{
+  "ticker": "dmt-gibnat",
+  "host": "http://116.202.232.187:4444",
+  "fetchedRecords": 462,
+  "successfulMints": 454,
+  "exportedItems": 454,
+  "failedRecords": 8,
+  "renderWidth": 400,
+  "imageBaseUrl": "https://trac-systems.github.io/gibnat-satflow-assets/images",
+  "generatedAt": "2026-04-26T11:47:52.751Z"
+}
