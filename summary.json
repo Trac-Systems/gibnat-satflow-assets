@@ -7,5 +7,6 @@
   "failedRecords": 8,
   "renderWidth": 400,
   "imageBaseUrl": "https://trac-systems.github.io/gibnat-satflow-assets/images",
+  "iconUrl": "https://trac-systems.github.io/gibnat-satflow-assets/icon.jpg",
   "generatedAt": "2026-04-26T12:16:05.641Z"
 }
