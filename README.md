@@ -1,21 +1,22 @@
 # GibNat Satflow Assets
 
-Public assets and native gallery-inscription source for the `dmt-gibnat`
-collection.
+Public images and metadata for the `dmt-gibnat` collection on Satflow.
 
 ## Files
 
-- `gallery/` contains the current native `ord` gallery source, inscription
-  instructions, snapshot counts, and integrity hashes.
-- `icon.jpg` is the collection icon and gallery inscription body.
+- `icon.jpg` is the collection icon.
 - `images/` contains the current lossless WebP renders named by inscription ID,
   plus the earlier PNG snapshot retained for compatibility.
 - `satflow-gibnats.json`, `image-manifest.json`, `mints.raw.json`,
-  `mints.success.json`, and `summary.json` are the current Satflow JSON-ingestion
+  `mints.success.json`, and `summary.json` are the current Satflow metadata
   snapshot.
+- `gallery/` is the frozen source and record of the separately confirmed
+  4,460-item native `ord` gallery. It is not used to update Satflow and does not
+  track later mints.
 
-Satflow no longer accepts new JSON uploads. Use the files and instructions in
-[`gallery/`](gallery/) to create the gallery inscription.
+Satflow collection updates are made through Satflow's interface. This repository
+hosts the corresponding images and maintains the complete metadata snapshot; a
+new gallery inscription is not part of a Satflow update.
 
 ## GitHub Pages URLs
 
