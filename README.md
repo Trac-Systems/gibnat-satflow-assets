@@ -1,17 +1,21 @@
 # GibNat Satflow Assets
 
-Static Satflow marketplace export for the currently minted `dmt-gibnat`
+Public assets and native gallery-inscription source for the `dmt-gibnat`
 collection.
 
 ## Files
 
-- `satflow-gibnats.json` — Satflow ingestion JSON.
-- `icon.jpg` — collection icon image.
-- `images/` — rendered PNGs named by inscription id.
-- `image-manifest.json` — inscription id to local image path and DMT block.
-- `mints.raw.json` — raw ord-tap mint records fetched for the export.
-- `mints.success.json` — successful `fail:false` records used in the export.
-- `summary.json` — export counts and generation settings.
+- `gallery/` contains the current native `ord` gallery source, inscription
+  instructions, snapshot counts, and integrity hashes.
+- `icon.jpg` is the collection icon and gallery inscription body.
+- `images/` contains the current lossless WebP renders named by inscription ID,
+  plus the earlier PNG snapshot retained for compatibility.
+- `satflow-gibnats.json`, `image-manifest.json`, `mints.raw.json`,
+  `mints.success.json`, and `summary.json` are the current Satflow JSON-ingestion
+  snapshot.
+
+Satflow no longer accepts new JSON uploads. Use the files and instructions in
+[`gallery/`](gallery/) to create the gallery inscription.
 
 ## GitHub Pages URLs
 
@@ -29,13 +33,3 @@ https://trac-systems.github.io/gibnat-satflow-assets/icon.jpg
 
 Enable GitHub Pages for this repository from the `main` branch root so the image
 URLs resolve publicly.
-
-## Refresh
-
-Regenerate from the local GibNat workspace:
-
-```sh
-node satflow/export-satflow.js \
-  --out gibnat-satflow-assets \
-  --image-base-url https://trac-systems.github.io/gibnat-satflow-assets/images
-```
