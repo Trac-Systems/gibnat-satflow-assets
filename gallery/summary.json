@@ -22,5 +22,26 @@
   "ordBatchSha256": "9f3f0d2480a62bb710dcf8e9b14a052a64542731a078b851d3a439edb3554af2",
   "burnerTraitItems": 377,
   "burnerTraitAddresses": 103,
-  "burnerTraitDefinition": "Confirmed on-chain mint matching a historical paid assignment from a confirmed GIB burn address"
+  "burnerTraitDefinition": "Confirmed on-chain mint matching a historical paid assignment from a confirmed GIB burn address",
+  "confirmedGallery": {
+    "inscriptionId": "08df00511d424001e6874be71712c65a7e5fb62cf7ebf6065d9a845f1f19a16ci0",
+    "inscriptionNumber": 127240855,
+    "revealTransaction": "08df00511d424001e6874be71712c65a7e5fb62cf7ebf6065d9a845f1f19a16c",
+    "confirmedAtBlock": 964178,
+    "confirmedAt": "2026-08-26T17:32:15Z",
+    "contentSha256": "0401211026ff65b44cf34e8f996ce71811a4509f84052ad6f3125ba2cc71c3fb",
+    "contentEncoding": "br",
+    "metaprotocol": "tap",
+    "propertyEncoding": "br",
+    "packedPropertiesBytes": 1790535,
+    "encodedPropertiesBytes": 199301,
+    "encodedPropertiesSha256": "4c2b3fa6bef2e313e2abd1c00b02d9b3a4cd764b18524ef7af70ef698e491f23",
+    "itemCount": 4460,
+    "idMismatches": 0,
+    "titleMismatches": 0,
+    "traitMismatchesAfterNoneToNullNormalization": 0,
+    "noneValuesEncodedAsNull": 11254,
+    "burnerTraitItems": 377,
+    "invalidBurnerTraitValues": 0
+  }
 }
