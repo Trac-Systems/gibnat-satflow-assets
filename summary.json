@@ -1,14 +1,14 @@
 {
   "ticker": "dmt-gibnat",
-  "fetchedRecords": 5063,
-  "successfulMints": 4807,
-  "exportedItems": 4807,
-  "failedRecords": 256,
-  "indexedThroughBlock": 964216,
+  "fetchedRecords": 5200,
+  "successfulMints": 4933,
+  "exportedItems": 4933,
+  "failedRecords": 267,
+  "indexedThroughBlock": 964295,
   "renderWidth": 400,
   "imageFormat": "webp",
-  "renderedImages": 347,
-  "reusedImages": 4460,
+  "renderedImages": 126,
+  "reusedImages": 4807,
   "imagesSkipped": false,
   "imageBaseUrl": "https://trac-systems.github.io/gibnat-satflow-assets/images",
   "iconUrl": "https://trac-systems.github.io/gibnat-satflow-assets/icon.jpg",
@@ -18,5 +18,5 @@
   "burnerTraitItems": 385,
   "burnerTraitAddresses": 104,
   "burnerTraitDefinition": "Confirmed on-chain mint matching a historical paid assignment from a confirmed GIB burn address",
-  "generatedAt": "2026-08-26T23:23:13.005Z"
+  "generatedAt": "2026-08-27T12:36:36.028Z"
 }
