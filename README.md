@@ -5,6 +5,8 @@ Public images and metadata for the `dmt-gibnat` collection on Satflow.
 ## Files
 
 - `icon.jpg` is the collection icon.
+- `GIBNAT-RARITY-CATALOGUE.pdf` documents the theoretical 8,064-piece
+  full-supply rarity distribution.
 - `images/` contains the current lossless WebP renders named by inscription ID,
   plus the earlier PNG snapshot retained for compatibility.
 - `satflow-gibnats.json`, `image-manifest.json`, `mints.raw.json`,
@@ -17,6 +19,10 @@ Public images and metadata for the `dmt-gibnat` collection on Satflow.
 Satflow collection updates are made through Satflow's interface. This repository
 hosts the corresponding images and maintains the complete metadata snapshot; a
 new gallery inscription is not part of a Satflow update.
+
+The Satflow ingestion JSON intentionally omits `DMT Block` and
+`Inscription Block` attributes because those fields are derived elsewhere and
+can destabilize Satflow collection ingestion.
 
 ## GitHub Pages URLs
 
