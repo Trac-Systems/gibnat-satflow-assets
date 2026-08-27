@@ -38,5 +38,9 @@ Collection icon URL:
 https://trac-systems.github.io/gibnat-satflow-assets/icon.jpg
 ```
 
-Enable GitHub Pages for this repository from the `main` branch root so the image
+GitHub Pages is deployed from `main` by the repository workflow so the image
 URLs resolve publicly.
+
+The Pages workflow publishes only the image assets, icon, Satflow JSON, and
+summary. The complete source snapshots and rarity catalogue remain available
+through the repository without inflating the marketplace-serving artifact.
